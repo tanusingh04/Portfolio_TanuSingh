@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* ──────────────────────────────────────────────
+     DEFAULT: Rose / Pink  (matches the screenshot)
+  ────────────────────────────────────────────── */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 330 30% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 330 30% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 330 30% 10%;
+
+    --primary: 330 70% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 330 40% 96%;
+    --secondary-foreground: 330 40% 20%;
+
+    --muted: 330 25% 95%;
+    --muted-foreground: 330 15% 48%;
+
+    --accent: 330 35% 91%;
+    --accent-foreground: 330 40% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 330 22% 86%;
+    --input: 330 22% 86%;
+    --ring: 330 70% 55%;
+
+    --radius: 0.75rem;
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: 330 18% 5%;
+    --foreground: 330 10% 95%;
+    --card: 330 18% 8%;
+    --card-foreground: 330 10% 95%;
+    --popover: 330 18% 5%;
+    --popover-foreground: 330 10% 95%;
+    --primary: 330 70% 65%;
+    --primary-foreground: 330 18% 5%;
+    --secondary: 330 18% 13%;
+    --secondary-foreground: 330 10% 85%;
+    --muted: 330 18% 13%;
+    --muted-foreground: 330 10% 58%;
+    --accent: 330 18% 18%;
+    --accent-foreground: 330 10% 95%;
+    --border: 330 18% 18%;
+    --input: 330 18% 18%;
+    --ring: 330 70% 65%;
+  }
+
+  /* ──────────────────────────────────────────────
+     THEME: Purple (original)
+  ────────────────────────────────────────────── */
+  .theme-purple {
+    --primary: 262 52% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 262 20% 96%;
+    --secondary-foreground: 240 10% 15%;
+    --muted: 262 12% 95%;
+    --muted-foreground: 240 5% 46%;
+    --accent: 262 25% 93%;
+    --accent-foreground: 240 10% 8%;
+    --border: 262 12% 88%;
+    --input: 262 12% 88%;
+    --ring: 262 52% 56%;
+    --foreground: 240 10% 8%;
+    --card-foreground: 240 10% 8%;
+    --popover-foreground: 240 10% 8%;
+  }
+  .theme-purple.dark {
+    --background: 240 10% 4%;
+    --foreground: 0 0% 95%;
+    --card: 240 10% 7%;
+    --card-foreground: 0 0% 95%;
+    --popover: 240 10% 4%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 262 52% 62%;
+    --primary-foreground: 240 10% 4%;
+    --secondary: 262 12% 12%;
+    --secondary-foreground: 0 0% 85%;
+    --muted: 262 10% 12%;
+    --muted-foreground: 240 5% 55%;
+    --accent: 262 18% 16%;
+    --accent-foreground: 0 0% 95%;
+    --border: 262 10% 16%;
+    --input: 262 10% 16%;
+    --ring: 262 52% 62%;
+  }
+
+  /* ──────────────────────────────────────────────
+     THEME: Sky / Blue
+  ────────────────────────────────────────────── */
+  .theme-sky {
+    --primary: 206 85% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 206 40% 96%;
+    --secondary-foreground: 206 50% 15%;
+    --muted: 206 25% 95%;
+    --muted-foreground: 206 15% 48%;
+    --accent: 206 35% 91%;
+    --accent-foreground: 206 50% 15%;
+    --border: 206 22% 86%;
+    --input: 206 22% 86%;
+    --ring: 206 85% 50%;
+    --foreground: 206 50% 10%;
+    --card-foreground: 206 50% 10%;
+    --popover-foreground: 206 50% 10%;
+  }
+  .theme-sky.dark {
+    --background: 206 20% 5%;
+    --foreground: 206 10% 95%;
+    --card: 206 20% 8%;
+    --card-foreground: 206 10% 95%;
+    --popover: 206 20% 5%;
+    --popover-foreground: 206 10% 95%;
+    --primary: 206 80% 60%;
+    --primary-foreground: 206 20% 5%;
+    --secondary: 206 20% 13%;
+    --secondary-foreground: 206 10% 85%;
+    --muted: 206 20% 13%;
+    --muted-foreground: 206 10% 58%;
+    --accent: 206 20% 18%;
+    --accent-foreground: 206 10% 95%;
+    --border: 206 20% 18%;
+    --input: 206 20% 18%;
+    --ring: 206 80% 60%;
+  }
+
+  /* ──────────────────────────────────────────────
+     THEME: Emerald / Green
+  ────────────────────────────────────────────── */
+  .theme-emerald {
+    --primary: 158 65% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 158 35% 96%;
+    --secondary-foreground: 158 45% 15%;
+    --muted: 158 22% 95%;
+    --muted-foreground: 158 15% 48%;
+    --accent: 158 32% 91%;
+    --accent-foreground: 158 45% 15%;
+    --border: 158 20% 86%;
+    --input: 158 20% 86%;
+    --ring: 158 65% 40%;
+    --foreground: 158 45% 8%;
+    --card-foreground: 158 45% 8%;
+    --popover-foreground: 158 45% 8%;
+  }
+  .theme-emerald.dark {
+    --background: 158 18% 5%;
+    --foreground: 158 10% 95%;
+    --card: 158 18% 8%;
+    --card-foreground: 158 10% 95%;
+    --popover: 158 18% 5%;
+    --popover-foreground: 158 10% 95%;
+    --primary: 158 60% 50%;
+    --primary-foreground: 158 18% 5%;
+    --secondary: 158 18% 13%;
+    --secondary-foreground: 158 10% 85%;
+    --muted: 158 18% 13%;
+    --muted-foreground: 158 10% 58%;
+    --accent: 158 18% 18%;
+    --accent-foreground: 158 10% 95%;
+    --border: 158 18% 18%;
+    --input: 158 18% 18%;
+    --ring: 158 60% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.25);
+    color: hsl(var(--foreground));
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary) / 0.6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .section-divider {
+    @apply w-full h-px bg-border;
+  }
+
+  .marquee {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  .marquee-content {
+    display: flex;
+    gap: 3rem;
+    animation: marquee 35s linear infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+}
