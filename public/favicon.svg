@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bezelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <linearGradient id="cursorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb7185" />
+    </linearGradient>
+    <linearGradient id="standGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="50%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+  </defs>
+
+  <!-- Monitor Bezel -->
+  <rect x="5" y="6" width="54" height="38" rx="6" fill="url(#bezelGrad)" stroke="#64748b" stroke-width="2" />
+
+  <!-- Screen -->
+  <rect x="9" y="10" width="46" height="30" rx="3.5" fill="url(#screenGrad)" />
+
+  <!-- Code / Terminal Prompt -->
+  <path d="M17 19.5L25 25L17 30.5" stroke="url(#codeGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="29" y1="30.5" x2="39" y2="30.5" stroke="url(#cursorGrad)" stroke-width="3.5" stroke-linecap="round" />
+  <line x1="29" y1="19.5" x2="47" y2="19.5" stroke="#475569" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Stand Neck -->
+  <path d="M28 44L26 53H38L36 44Z" fill="url(#standGrad)" />
+
+  <!-- Stand Base -->
+  <rect x="18" y="53" width="28" height="4" rx="2" fill="url(#baseGrad)" stroke="#64748b" stroke-width="0.5" />
+</svg>

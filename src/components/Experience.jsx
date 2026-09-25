@@ -4,15 +4,26 @@ const experiences = [
   {
     title: "Rasient Technohub Pvt. Ltd.",
     role: "Backend Engineer Intern",
-    period: "Jan 2026 – Mar 2026",
+    period: "Jan 2026 – March 2026",
     location: "Remote",
-    tags: ["Java", "Spring Boot", "REST APIs", "Microservices", "Apache Kafka", "Redis", "Docker", "GitHub Actions", "AWS", "Google Cloud", "Linux", "Agile/Scrum"],
+    tags: ["Java", "Spring Boot", "REST APIs", "Microservices", "Apache Kafka", "Redis", "Docker", "GitHub Actions", "AWS", "Google Cloud", "Linux", "Agile"],
     points: [
-      "Developed scalable REST APIs using Java, Spring Boot, and Microservices, supporting 5K+ concurrent users with less than 200ms latency.",
-      "Integrated backend with AI/ML services and implemented event-driven architecture using Apache Kafka, improving throughput by 40%+.",
-      "Optimized performance using Redis caching, reducing API response time by 30% and enhancing system scalability.",
-      "Deployed and managed containerized services using Docker and CI/CD pipelines (GitHub Actions) on Linux-based cloud platforms (AWS and Google Cloud), ensuring 99.9% uptime and reliable releases.",
-      "Worked in an Agile/Scrum team with sprint planning and code reviews, using GitHub Copilot to improve productivity.",
+      "Developed scalable REST APIs using Java, Spring Boot, and Microservices architecture.",
+      "Integrated backend systems with AI/ML services to power intelligent features, and implemented event-driven architecture using Apache Kafka for real-time data flow.",
+      "Optimized performance using Redis caching, improving API response time and overall system scalability.",
+      "Deployed and managed containerized services using Docker and CI/CD pipelines (GitHub Actions) on Linux-based cloud platforms (AWS and Google Cloud), ensuring reliable releases.",
+      "Worked in an Agile team with sprint planning and code reviews, using GitHub Copilot to improve development productivity.",
+    ],
+  },
+  {
+    title: "VIT Bhopal",
+    role: "DevC Lead — Position of Responsibility",
+    period: "2025 – 2026",
+    location: "Bhopal, India",
+    tags: ["Java", "Spring Boot", "Backend Engineering", "Technical Leadership", "Mentorship"],
+    points: [
+      "Serving as DevC Lead at VIT Bhopal, focusing on Java and Spring Boot development.",
+      "Leading technical initiatives, mentoring peers in backend architecture, and conducting sessions on robust system design and modern Java frameworks.",
     ],
   },
 ];

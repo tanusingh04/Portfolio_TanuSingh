@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 const educationData = [
   {
-    institution: "VIT Bhopal",
-    degree: "B.Tech: Computer Science & Engineering (AI-ML)",
-    period: "Sept 2023 – May 2027",
-    grade: "GPA: 8.79/10",
+    institution: "Vellore Institute of Technology, Bhopal",
+    degree: "B.Tech in Computer Science and Engineering",
+    period: "2023 – 2027",
+    grade: "CGPA: 8.81 / 10",
     current: true,
   },
   {

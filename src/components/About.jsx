@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "8.79", label: "CGPA", sub: "/ 10" },
+  { value: "8.81", label: "CGPA", sub: "/ 10" },
   { value: "5K+", label: "Users Served", sub: "in internship" },
-  { value: "250+", label: "DSA Problems", sub: "solved" },
+  { value: "400+", label: "DSA Problems", sub: "solved" },
   { value: "2+", label: "Certifications", sub: "Microsoft & IBM" },
 ];
 
@@ -25,11 +25,35 @@ const About = () => {
             <span className="text-primary">backend development</span>.
           </h2>
           <p className="text-base text-muted-foreground font-body leading-[1.85] mb-5">
-            Computer Science undergraduate at <strong className="text-foreground">VIT Bhopal</strong> specializing in AI &amp; ML. Experienced in building Spring Boot microservices and event-driven systems, with hands-on industry experience and recognition in national-level hackathons.
+            Computer Science undergraduate at <strong className="text-foreground">Vellore Institute of Technology, Bhopal</strong> (2023–2027) with an 8.81 CGPA. Experienced as a Backend Engineer Intern building scalable REST APIs with Spring Boot and microservices, event-driven architectures with Apache Kafka, and low-latency systems.
           </p>
-          <p className="text-base text-muted-foreground font-body leading-[1.85]">
-            I focus on writing clean, testable, production-grade code — from low-latency REST APIs to containerized cloud deployments. I believe great software starts with deep engineering principles and attention to system design.
+          <p className="text-base text-muted-foreground font-body leading-[1.85] mb-6">
+            Strong foundation in Data Structures & Algorithms (400+ problems solved, top college rank), Object-Oriented Programming, and cloud infrastructure on AWS and Google Cloud with Docker and CI/CD pipelines.
           </p>
+
+          {/* Areas of Interest from Resume */}
+          <div className="pt-2">
+            <p className="text-xs font-body font-semibold uppercase tracking-wider text-muted-foreground mb-3">
+              Areas of Interest
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "Backend Engineering",
+                "Applied AI/ML",
+                "FinTech Systems",
+                "Distributed Systems",
+                "System Design",
+                "Competitive Programming",
+              ].map((area) => (
+                <span
+                  key={area}
+                  className="px-3 py-1 text-xs font-body font-medium rounded-full bg-primary/10 text-primary border border-primary/20"
+                >
+                  {area}
+                </span>
+              ))}
+            </div>
+          </div>
         </motion.div>
 
         {/* Stats grid */}

@@ -3,19 +3,19 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Time_Forge",
-    subtitle: "Scalable Dockerized CI/CD REST API",
+    title: "Time Forge",
+    subtitle: "AI-Powered Productivity App · Feb 2026",
     github: "https://github.com/tanusingh04/TimeForge",
-    description: "Developed and optimized Time Forge using RESTful APIs, enabling efficient data flow and backend communication with low-latency response handling for scalable user interactions. Implemented Docker-based containerization and GitHub Actions CI/CD pipeline, reducing release cycle time by 50%.",
-    tags: ["Java", "Spring Boot", "REST APIs", "Docker", "GitHub Actions", "CI/CD"],
+    description: "Built an AI-powered productivity app using React, TypeScript, Tailwind CSS, and Vite, applying prompt engineering to generate context-aware study guidance. Integrated the Google Gemini API (LLM) to deliver summaries, explanations, and personalized study plans. Implemented LocalStorage and IndexedDB for persistent data and structured LLM context retrieval with custom React hooks.",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Vite", "Google Gemini API", "LLM", "IndexedDB", "Context API"],
     featured: true,
   },
   {
     title: "Order Matching Engine",
-    subtitle: "Low-Latency Trading Engine",
+    subtitle: "Low-Latency Trading Engine · April 2026",
     github: "https://github.com/tanusingh04/order-matching-engine",
-    description: "Designed low-latency trading engine using Java, achieving O(log n) order matching with price–time priority (FIFO). Built in-memory order book supporting limit/market orders, handling 1M+ orders with high throughput. Architected scalable system design targeting 50M+ concurrent users.",
-    tags: ["Java", "DSA", "System Design", "FIFO", "In-Memory"],
+    description: "Engineered a Java-based order matching engine implementing price-time priority (FIFO) for deterministic trade execution. Designed an in-memory order book using TreeMap-based price levels enabling O(log n) order insertion and efficient best-price retrieval, supporting partial fills, order cancellations, and ReentrantLock-based concurrency with an asynchronous event pipeline.",
+    tags: ["Java", "DSA", "Low-Latency", "TreeMap", "FIFO", "Multithreading", "ReentrantLock"],
     featured: true,
   },
   {

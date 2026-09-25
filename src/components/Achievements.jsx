@@ -3,12 +3,20 @@ import { Trophy, Award, Medal, Code } from "lucide-react";
 
 const achievements = [
   {
-    title: "2nd Runner-Up",
-    event: "SolVIT Hackathon",
-    detail: "Community Safety Platform — recognized among top performers for innovation.",
-    icon: Trophy,
-    color: "from-amber-500/10 to-yellow-500/5 border-amber-500/20",
-    iconColor: "text-amber-500 bg-amber-500/15",
+    title: "400+ DSA & CP Problems",
+    event: "Codeforces · LeetCode · CodeChef · Codolio",
+    detail: "Solved 400+ DSA and competitive programming problems across Codeforces, LeetCode, and CodeChef; ranked 1st in college in multiple contests.",
+    icon: Code,
+    color: "from-sky-500/10 to-blue-500/5 border-sky-500/20",
+    iconColor: "text-sky-500 bg-sky-500/15",
+  },
+  {
+    title: "Team Win",
+    event: "Codeverse Hackathon",
+    detail: "Led a team to a win among 250+ teams in the Codeverse Hackathon.",
+    icon: Medal,
+    color: "from-emerald-500/10 to-teal-500/5 border-emerald-500/20",
+    iconColor: "text-emerald-500 bg-emerald-500/15",
   },
   {
     title: "National Finalist",
@@ -19,20 +27,12 @@ const achievements = [
     iconColor: "text-primary bg-primary/15",
   },
   {
-    title: "Team Win",
-    event: "Codeverse Hackathon",
-    detail: "Led a team to a win among 250+ competing teams.",
-    icon: Medal,
-    color: "from-emerald-500/10 to-teal-500/5 border-emerald-500/20",
-    iconColor: "text-emerald-500 bg-emerald-500/15",
-  },
-  {
-    title: "250+ DSA Problems",
-    event: "Codeforces · LeetCode · CodeChef",
-    detail: "Solved 250+ DSA and competitive programming problems. Ranked 1st in college.",
-    icon: Code,
-    color: "from-sky-500/10 to-blue-500/5 border-sky-500/20",
-    iconColor: "text-sky-500 bg-sky-500/15",
+    title: "2nd Runner-Up",
+    event: "SolVIT Hackathon",
+    detail: "Community Safety Platform — recognized among top performers for innovation.",
+    icon: Trophy,
+    color: "from-amber-500/10 to-yellow-500/5 border-amber-500/20",
+    iconColor: "text-amber-500 bg-amber-500/15",
   },
 ];
 

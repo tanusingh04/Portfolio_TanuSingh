@@ -8,11 +8,11 @@ const skillCategories = [
   },
   {
     label: "Backend",
-    skills: ["Spring Boot", "Spring Security", "REST APIs", "Microservices", "Apache Kafka"],
+    skills: ["Spring Boot", "Spring Security", "REST APIs", "Microservices Architecture"],
   },
   {
     label: "Frontend",
-    skills: ["React", "Angular", "TypeScript", "HTML", "CSS"],
+    skills: ["React", "JavaScript", "TypeScript", "Tailwind CSS"],
   },
   {
     label: "Databases",
@@ -20,15 +20,19 @@ const skillCategories = [
   },
   {
     label: "DevOps & Tools",
-    skills: ["Docker", "Git", "GitHub Actions", "Maven", "Jenkins", "Postman", "SonarQube"],
+    skills: ["Docker", "Git", "GitHub Actions", "Apache Kafka", "Redis", "Maven", "Postman", "JWT"],
   },
   {
     label: "Cloud Platforms",
-    skills: ["Google Cloud (GCP)", "Supabase"],
+    skills: ["AWS", "Google Cloud"],
   },
   {
     label: "Core CS",
-    skills: ["DSA", "OOP", "DBMS", "OS", "System Design", "Distributed Systems"],
+    skills: ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "DBMS", "Operating Systems"],
+  },
+  {
+    label: "Areas of Interest",
+    skills: ["Backend Engineering", "Applied AI/ML", "FinTech Systems", "Distributed Systems", "System Design", "Competitive Programming"],
   },
 ];
 
